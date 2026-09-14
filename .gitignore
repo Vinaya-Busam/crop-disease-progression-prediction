@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large datasets and generated data
+images/
+images_test/
+processed/
+mask/
+sample/
+rds/
+metadata/
+
+# Model files
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Environment files
+.env
+.env.*
+
+# Node
+app/frontend/node_modules/
+app/frontend/dist/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Disease classification dataset and generated results
+disease_classification/dataset/
+disease_classification/*.zip
+disease_classification/train.csv
+disease_classification/test.csv
+disease_classification/validation.csv
+result/

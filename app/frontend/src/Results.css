@@ -1,0 +1,2172 @@
+
+.results-section {
+  width: min(1125px, calc(100% - 48px));
+  margin: 42px auto 0;
+  padding: 0 0 90px;
+  clear: both;
+  box-sizing: border-box;
+}
+
+.results-header {
+  padding-top: 8px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 22px;
+  padding: 24px 18px 0;
+  box-sizing: border-box;
+}
+
+.results-eyebrow {
+  color: #69a574;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 9px;
+}
+
+.results-header h2 {
+  margin: 0;
+  color: #f4f7f4;
+  font-size: 28px;
+  line-height: 1.1;
+  letter-spacing: -1.4px;
+}
+
+.results-header p {
+  margin: 8px 0 0;
+  color: #7f8b83;
+  font-size: 13px;
+}
+
+.result-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #8fa696;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4fbd68;
+  box-shadow: 0 0 12px rgba(79, 189, 104, .75);
+}
+
+.results-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 14px;
+  box-sizing: border-box;
+}
+
+.risk-banner {
+  min-height: 82px;
+  padding: 17px 22px;
+  border: 1px solid #26342a;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #111712, #0c110e);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, .18);
+}
+
+.risk-title {
+  color: #69746d;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  margin-bottom: 5px;
+}
+
+.risk-level {
+  color: #e3ebe5;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.risk-value {
+  color: #f4f7f4;
+  font-size: 34px;
+  font-weight: 850;
+  letter-spacing: -1.5px;
+}
+
+.risk-value span {
+  color: #7d8981;
+  font-size: 14px;
+  margin-left: 2px;
+}
+
+.top-result-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.result-card {
+  background: linear-gradient(145deg, #111412, #0d100e);
+  border: 1px solid #202721;
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, .2);
+}
+
+.result-card-label {
+  color: #69746d;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.disease-name {
+  color: #f4f7f4;
+  font-size: 28px;
+  font-weight: 850;
+  letter-spacing: -1px;
+  margin-bottom: 19px;
+}
+
+.confidence-row-new {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #89958d;
+  font-size: 11px;
+  margin-bottom: 8px;
+}
+
+.confidence-row-new strong {
+  color: #7fbd89;
+  font-size: 13px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  border-radius: 10px;
+  background: #202a23;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: inherit;
+  background: #5d9d68;
+}
+
+.probability-list {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.probability-item {
+  display: grid;
+  grid-template-columns: 92px 1fr 48px;
+  align-items: center;
+  gap: 10px;
+}
+
+.probability-name {
+  color: #a1aca4;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.probability-value {
+  text-align: right;
+  color: #aebbb1;
+  font-size: 10px;
+}
+
+.progression-main-card {
+  padding: 24px;
+}
+
+.progression-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.progression-heading h3 {
+  margin: 0;
+  color: #e8eee9;
+  font-size: 15px;
+  font-weight: 750;
+}
+
+.change-badge {
+  padding: 7px 11px;
+  border-radius: 8px;
+  background: #142018;
+  border: 1px solid #2c4932;
+  color: #7fbd89;
+  font-size: 11px;
+  font-weight: 750;
+}
+
+.forecast-track {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+  margin: 26px auto 22px;
+  max-width: 650px;
+}
+
+.forecast-point {
+  min-width: 105px;
+  text-align: center;
+}
+
+.forecast-circle {
+  width: 76px;
+  height: 76px;
+  margin: 0 auto 9px;
+  border-radius: 50%;
+  border: 1px solid #36513b;
+  background: radial-gradient(circle at 35% 30%, #1b3020, #101b14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d0e0d3;
+  font-size: 15px;
+  font-weight: 850;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, .22);
+}
+
+.forecast-next {
+  border-color: #4c7955;
+  background: radial-gradient(circle at 35% 30%, #203b26, #101b14);
+}
+
+.forecast-label {
+  color: #68736c;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.forecast-line {
+  width: 150px;
+  height: 2px;
+  background: #26382b;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.forecast-line span {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #4d6d54;
+}
+
+.metric-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.metric-box {
+  background: #0b0e0c;
+  border: 1px solid #1c241e;
+  border-radius: 11px;
+  padding: 15px 16px;
+}
+
+.metric-value {
+  color: #e7eee8;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -.4px;
+}
+
+.metric-label {
+  color: #68736c;
+  font-size: 9px;
+  margin-top: 4px;
+}
+
+.unavailable-card {
+  padding: 22px 0 3px;
+}
+
+.unavailable-card h3 {
+  margin: 0 0 8px;
+  color: #dfe7e1;
+  font-size: 14px;
+}
+
+.unavailable-card p {
+  margin: 0;
+  color: #77827a;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.disease-info h3 {
+  margin: 0 0 18px;
+  color: #e8eee9;
+  font-size: 17px;
+}
+
+.info-panels {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 11px;
+}
+
+.info-box {
+  background: #0b0e0c;
+  border: 1px solid #1c241e;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.info-box h4 {
+  margin: 0 0 7px;
+  color: #dbe5dd;
+  font-size: 12px;
+}
+
+.info-box p {
+  margin: 0;
+  color: #7f8982;
+  font-size: 11px;
+  line-height: 1.65;
+}
+
+.interpretation-text {
+  margin: 0;
+  color: #9da8a0;
+  line-height: 1.75;
+  font-size: 12px;
+}
+
+.interpretation-text strong {
+  color: #c3d8c6;
+}
+
+.disclaimer {
+  margin-top: 16px;
+  padding: 13px 15px;
+  border-left: 2px solid #36513b;
+  background: #0b0e0c;
+  color: #68736c;
+  font-size: 10px;
+  line-height: 1.65;
+}
+
+@media (max-width: 800px) {
+  .results-section {
+    width: 88%;
+    margin-top: 32px;
+  }
+
+  .results-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .top-result-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .info-panels {
+    grid-template-columns: 1fr;
+  }
+
+  .forecast-track {
+    gap: 12px;
+  }
+
+  .forecast-line {
+    width: 80px;
+  }
+
+  .metric-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .results-section {
+    width: 92%;
+  }
+
+  .risk-banner {
+    padding: 15px 17px;
+  }
+
+  .risk-value {
+    font-size: 27px;
+  }
+
+  .result-card {
+    padding: 18px;
+  }
+
+  .forecast-circle {
+    width: 65px;
+    height: 65px;
+    font-size: 13px;
+  }
+
+  .forecast-line {
+    width: 45px;
+  }
+
+  .probability-item {
+    grid-template-columns: 78px 1fr 42px;
+  }
+}
+
+
+/* Severity summary */
+.severity-summary-card {
+  position: relative;
+  padding: 28px 30px 26px;
+  border: 1px solid rgba(120, 190, 150, 0.18);
+  border-radius: 20px;
+  background: linear-gradient(
+    145deg,
+    rgba(18, 31, 26, 0.96),
+    rgba(12, 23, 19, 0.96)
+  );
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+}
+
+.severity-summary-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    rgba(91, 220, 142, 0.7),
+    rgba(91, 220, 142, 0)
+  );
+}
+
+.severity-summary-title {
+  margin-bottom: 22px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8da99a;
+}
+
+.severity-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding-right: 150px;
+}
+
+.severity-metric {
+  min-height: 105px;
+  padding: 20px 18px;
+  border: 1px solid rgba(120, 190, 150, 0.12);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.severity-metric-label {
+  margin-bottom: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #789287;
+}
+
+.severity-metric-value {
+  font-size: 29px;
+  line-height: 1.1;
+  font-weight: 700;
+  color: #e7f5ed;
+}
+
+.severity-metric-subtitle {
+  margin-top: 7px;
+  font-size: 12px;
+  color: #72887d;
+}
+
+.risk-badge {
+  position: absolute;
+  top: 24px;
+  right: 26px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 92px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.06);
+  color: #dcebe3;
+}
+
+.risk-low {
+  border-color: rgba(86, 210, 130, 0.35);
+  background: rgba(52, 180, 101, 0.12);
+  color: #70e69b;
+}
+
+.risk-moderate {
+  border-color: rgba(240, 190, 70, 0.4);
+  background: rgba(240, 190, 70, 0.12);
+  color: #f1c85c;
+}
+
+.risk-high {
+  border-color: rgba(255, 142, 70, 0.45);
+  background: rgba(255, 120, 50, 0.13);
+  color: #ff9a62;
+}
+
+.risk-critical {
+  border-color: rgba(255, 90, 105, 0.4);
+  background: rgba(255, 70, 85, 0.10);
+  color: #ff8b96;
+}
+
+.risk-unavailable {
+  color: #9ba9a2;
+}
+
+@media (max-width: 760px) {
+  .severity-summary-card {
+    padding: 24px 20px;
+  }
+
+  .risk-badge {
+    position: static;
+    margin-bottom: 18px;
+  }
+
+  .severity-metrics {
+    grid-template-columns: 1fr;
+    padding-right: 0;
+  }
+}
+
+
+/* Severity summary layout refinement */
+.severity-summary-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 22px;
+}
+
+.severity-summary-top .severity-summary-title {
+  margin-bottom: 0;
+}
+
+.severity-summary-top .risk-badge {
+  position: static;
+  min-width: 86px;
+  padding: 5px 9px;
+  font-size: 8.5px;
+  flex-shrink: 0;
+}
+
+.severity-metrics {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 14px;
+  padding: 0 28px;
+}
+
+.severity-metric {
+  width: 205px;
+  min-height: 92px;
+  padding: 15px 16px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 760px) {
+  .severity-summary-top {
+    align-items: flex-start;
+  }
+
+  .severity-metrics {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .severity-metric {
+    width: 100%;
+  }
+}
+
+
+
+.severity-metric {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 98px;
+  padding: 17px 20px;
+  border-radius: 16px;
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.035),
+    rgba(255, 255, 255, 0.015)
+  );
+  border: 1px solid rgba(120, 190, 150, 0.14);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.025);
+}
+
+.severity-metric-label {
+  margin-bottom: 8px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #82968b;
+}
+
+.severity-metric-value {
+  display: flex;
+  align-items: baseline;
+  gap: 3px;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 750;
+  letter-spacing: -1px;
+  color: #edf7f1;
+}
+
+
+
+/* Clean severity metric typography */
+.severity-metric-value {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  color: #e1ebe5;
+}
+
+.severity-metric-label {
+  margin-bottom: 7px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: #7f9188;
+}
+
+
+/* Matched disease result cards */
+.top-result-grid {
+  align-items: stretch;
+}
+
+.top-result-grid .disease-card,
+.top-result-grid .probability-card {
+  min-height: 255px;
+  box-sizing: border-box;
+}
+
+.top-result-grid .disease-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.top-result-grid .disease-card .result-card-label {
+  margin-bottom: 14px;
+}
+
+.top-result-grid .disease-card .disease-name {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.7px;
+  margin-bottom: 16px;
+}
+
+.top-result-grid .probability-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* Center only the detected disease name */
+.disease-card .disease-name {
+  text-align: center;
+}
+
+
+/* Refined severity metric labels */
+.severity-metric-label {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.045em;
+  color: #87968e;
+}
+
+
+/* Restore risk badge position */
+.severity-summary-card .risk-badge {
+  position: absolute;
+  top: 24px;
+  right: 26px;
+}
+
+/* Professional grouped severity metrics */
+.severity-summary-card .severity-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  width: calc(100% - 36px);
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.severity-summary-card .severity-metric {
+  width: 100%;
+  min-height: 100px;
+  box-sizing: border-box;
+}
+
+
+/* Simple professional severity metrics */
+.severity-summary-card .severity-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  width: calc(100% - 40px);
+  margin: 10px auto 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.severity-summary-card .severity-metric {
+  width: 100%;
+  min-height: 82px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+.severity-summary-card .severity-metric-label {
+  margin-bottom: 6px;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #7f9188;
+}
+
+.severity-summary-card .severity-metric-value {
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  color: #e1ebe5;
+}
+
+
+/* Clean severity metrics without container or individual boxes */
+.severity-summary-card .severity-metrics {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 70px;
+  width: 100%;
+  margin: 18px auto 0;
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.severity-summary-card .severity-metric {
+  width: auto;
+  min-height: auto;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  text-align: left;
+}
+
+.severity-summary-card .severity-metric-label {
+  margin-bottom: 7px;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #7f9188;
+}
+
+.severity-summary-card .severity-metric-value {
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  color: #e1ebe5;
+}
+
+
+/* Restore risk badge position */
+.severity-summary-card .risk-badge {
+  position: absolute;
+  top: 24px;
+  right: 26px;
+}
+
+/* Professional grouped severity metrics */
+.severity-summary-card .severity-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  width: calc(100% - 36px);
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.severity-summary-card .severity-metric {
+  width: 100%;
+  min-height: 100px;
+  box-sizing: border-box;
+}
+
+
+/* Refined severity metric labels */
+.severity-metric-label {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.045em;
+  color: #87968e;
+}
+
+
+/* Restore risk badge position */
+.severity-summary-card .risk-badge {
+  position: absolute;
+  top: 24px;
+  right: 26px;
+}
+
+/* Professional grouped severity metrics */
+.severity-summary-card .severity-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  width: calc(100% - 36px);
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.severity-summary-card .severity-metric {
+  width: 100%;
+  min-height: 100px;
+  box-sizing: border-box;
+}
+
+
+/* Separate severity metric cards */
+.severity-summary-card .severity-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  width: 100%;
+  margin: 18px 0 0;
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+.severity-summary-card .severity-metric {
+  width: 100%;
+  min-height: 105px;
+  padding: 20px 18px;
+  border: 1px solid rgba(120, 190, 150, 0.12);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.025);
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+.severity-summary-card .severity-metric-label {
+  margin-bottom: 10px;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.045em;
+  color: #87968e;
+}
+
+.severity-summary-card .severity-metric-value {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  color: #e1ebe5;
+}
+
+@media (max-width: 700px) {
+  .severity-summary-card .severity-metrics {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* Add more space between risk badge and severity metrics */
+.severity-summary-card .severity-metrics {
+  margin-top: 42px;
+}
+
+
+/* Add more space between risk badge and severity metrics */
+.severity-summary-card .severity-metrics {
+  margin-top: 40px;
+}
+
+
+/* Add more space between risk badge and severity metrics */
+.severity-summary-card .severity-metrics {
+  margin-top: 38px;
+}
+
+
+/* Add more space between risk badge and severity metrics */
+.severity-summary-card .severity-metrics {
+  margin-top: 35px;
+}
+
+
+/* Add more space between risk badge and severity metrics */
+.severity-summary-card .severity-metrics {
+  margin-top: 33px;
+}
+
+
+/* Add more space between risk badge and severity metrics */
+.severity-summary-card .severity-metrics {
+  margin-top: 30px;
+}
+
+
+/* Increase spacing between metric label and value */
+.severity-summary-card .severity-metric-label {
+  margin-bottom: 14px;
+}
+
+
+/* Increase spacing between metric label and value */
+.severity-summary-card .severity-metric-label {
+  margin-bottom: 16px;
+}
+
+
+/* Increase spacing between metric label and value */
+.severity-summary-card .severity-metric-label {
+  margin-bottom: 20px;
+}
+
+
+/* Increase spacing between metric label and value */
+.severity-summary-card .severity-metric-label {
+  margin-bottom: 16px;
+}
+
+
+/* Match severity labels with Detected disease typography */
+.severity-summary-card .severity-metric-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: #789287;
+  margin-bottom: 14px;
+}
+
+
+/* Distinct typography for severity metric labels */
+.severity-summary-card .severity-metric-label {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: #9aa9a1;
+  margin-bottom: 14px;
+}
+
+
+/* Different font only for the three severity labels */
+.severity-summary-card .severity-metric-label {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: #9aa9a1;
+  margin-bottom: 14px;
+}
+
+/* Keep severity numbers unchanged */
+.severity-summary-card .severity-metric-value {
+  font-family: inherit;
+}
+
+
+/* Different font only for severity labels */
+.severity-summary-card .severity-metric-label {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: #9aa9a1;
+  margin-bottom: 14px;
+}
+
+/* Restore original severity values */
+.severity-summary-card .severity-metric-value {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 29px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: normal;
+  color: #e7f5ed;
+}
+
+
+/* Different font only for severity labels */
+.severity-summary-card .severity-metric-label {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: #9aa9a1;
+  margin-bottom: 14px;
+}
+
+/* Restore original severity values */
+.severity-summary-card .severity-metric-value {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: normal;
+  color: #e7f5ed;
+}
+
+
+/* Different font only for severity labels */
+.severity-summary-card .severity-metric-label {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: #9aa9a1;
+  margin-bottom: 14px;
+}
+
+/* Restore original severity values */
+.severity-summary-card .severity-metric-value {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: normal;
+  color: #e7f5ed;
+}
+
+
+/* Increase text size inside Understanding the prediction */
+.disease-info .info-box p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+
+/* Increase text size inside Understanding the prediction */
+.disease-info .info-box p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+/* Increase text size inside Understanding the prediction */
+.disease-info .info-box p {
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+
+/* Increase text size inside Understanding the prediction */
+.disease-info .info-box p {
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+
+/* Increase text size inside Understanding the prediction */
+.disease-info .info-box p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+
+/* Increase text size inside Understanding the prediction */
+.disease-info .info-box p {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+    
+.disease-card .disease-name {
+  text-align: center;
+}
+
+
+    
+.disease-card .result-card-label {
+  text-align: left;
+}
+
+.disease-card .disease-name {
+  text-align: center;
+}
+
+
+    
+.top-result-grid .disease-card .result-card-label {
+  width: 100%;
+  text-align: left;
+  align-self: stretch;
+}
+
+.top-result-grid .disease-card .disease-name {
+  width: 100%;
+  text-align: center;
+}
+
+
+    
+.top-result-grid .disease-card {
+  justify-content: flex-start;
+  padding-top: 24px;
+}
+
+.top-result-grid .disease-card .disease-name {
+  margin-top: 38px;
+}
+
+
+    
+.top-result-grid .probability-card {
+  justify-content: flex-start;
+  padding-top: 24px;
+}
+
+.top-result-grid .probability-card .result-card-label {
+  width: 100%;
+  text-align: left;
+  align-self: stretch;
+}
+
+
+    
+.top-result-grid .probability-card .probability-list {
+  margin-top: 14px;
+}
+
+
+    
+.top-result-grid .probability-card .probability-list {
+  margin-top: 16px;
+}
+
+
+    
+.top-result-grid .probability-card .probability-note {
+  margin: 18px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid rgba(120, 190, 150, 0.08);
+  color: #68756e;
+  font-size: 10px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+
+    
+.top-result-grid .probability-card .probability-note {
+  margin: 18px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid rgba(120, 190, 150, 0.08);
+  color: #68756e;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+
+    
+.top-result-grid .probability-card .probability-note {
+  margin: 18px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid rgba(120, 190, 150, 0.08);
+  color: #68756e;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+    
+.top-result-grid .probability-card .probability-name {
+  font-size: 12px;
+}
+
+
+    
+.top-result-grid .disease-card .confidence-row-new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #89958d;
+  font-size: 11px;
+}
+
+.top-result-grid .disease-card .confidence-row-new strong {
+  color: #a0aaa4;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.top-result-grid .disease-card .progress-bar {
+  width: 75%;
+  margin: 0 auto;
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  margin-top: 24px;
+}
+
+
+    
+.top-result-grid .disease-card .confidence-row-new {
+  font-size: 12px;
+}
+
+.top-result-grid .disease-card .confidence-row-new strong {
+  font-size: 12px;
+}
+
+
+    
+.top-result-grid .disease-card .confidence-row-new {
+  font-size: 11px;
+}
+
+.top-result-grid .disease-card .confidence-row-new strong {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+    
+.top-result-grid .disease-card .confidence-row-new {
+  font-size: 12px;
+}
+
+.top-result-grid .disease-card .confidence-row-new strong {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+    
+.top-result-grid .disease-card .confidence-row-new {
+  font-size: 12px;
+}
+
+.top-result-grid .disease-card .confidence-row-new strong {
+  font-size: 14px;
+  font-weight: 650;
+}
+
+
+    
+.top-result-grid .disease-card .confidence-row-new {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.top-result-grid .disease-card .confidence-row-new strong {
+  font-size: 14px;
+  font-weight: 650;
+}
+
+
+    
+.top-result-grid .disease-card .confidence-row-new {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.top-result-grid .disease-card .confidence-row-new strong {
+  font-size: 14px;
+  font-weight: 650;
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  font-family: "Inter", Arial, sans-serif;
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  font-family: Roboto;
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  font-family: poppins;
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  font-family: "poppins";
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  font-family: "lato";
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  font-family: "Nunito Sans";
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  font-family: Nunito Sans;
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  font-family: open Sans;
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  font-family: Manrope;
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  font-family: Figtree;
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  font-family: "Figtree", Arial, sans-serif;
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  font-family: "Manrope", Arial, sans-serif;
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  font-family: "Rubik", Arial, sans-serif;
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  font-family: "Plus Jakarta Sans", Arial, sans-serif;
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  font-family: "Manrope", Arial, sans-serif;
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  font-family: "verdana", Arial, sans-serif;
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  font-family: "Tahoma", Arial, sans-serif;
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  font-family: "Poppin", Arial, sans-serif;
+}
+
+
+    
+.top-result-grid .disease-card .disease-name {
+  font-family: "Manrope", Arial, sans-serif;
+}
+
+
+    
+.progression-chart {
+  width: 100%;
+  margin-top: 34px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(120, 190, 150, 0.08);
+}
+
+.progression-chart-title {
+  color: #89958d;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.progression-chart .recharts-wrapper {
+  font-family: Arial, sans-serif;
+}
+
+@media (max-width: 700px) {
+  .progression-chart {
+    margin-top: 28px;
+    padding-top: 18px;
+  }
+}
+
+
+
+.site-section {
+  width: 100%;
+  padding: 110px 7%;
+  box-sizing: border-box;
+  background: #0b110d;
+  border-top: 1px solid rgba(120, 190, 150, 0.06);
+}
+
+.site-section-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.site-section-label {
+  color: #7fbd89;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.about-section h2 {
+  margin: 0;
+  color: #edf5ef;
+  font-size: 34px;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+}
+
+.site-section-intro {
+  max-width: 760px;
+  margin: 18px 0 0;
+  color: #89958d;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 46px;
+}
+
+.about-card {
+  padding: 26px;
+  border: 1px solid rgba(120, 190, 150, 0.10);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.018);
+  box-sizing: border-box;
+}
+
+.about-card-icon {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  color: #7fbd89;
+}
+
+.about-card-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.about-card h3 {
+  margin: 0 0 10px;
+  color: #dfe9e2;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.about-card p {
+  margin: 0;
+  color: #7f8c84;
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.about-supported {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 48px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(120, 190, 150, 0.07);
+}
+
+.about-supported p {
+  margin: 6px 0 0;
+  color: #737f78;
+  font-size: 11px;
+}
+
+.disease-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.disease-tags span {
+  padding: 8px 12px;
+  border: 1px solid rgba(120, 190, 150, 0.10);
+  border-radius: 20px;
+  color: #9aa79f;
+  background: rgba(120, 190, 150, 0.035);
+  font-size: 10px;
+}
+
+@media (max-width: 800px) {
+  .site-section {
+    padding: 80px 6%;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-supported {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .disease-tags {
+    justify-content: flex-start;
+  }
+}
+
+
+.how-section {
+  background: #0c120e;
+}
+
+.how-section h2 {
+  margin: 0;
+  color: #edf5ef;
+  font-size: 34px;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+}
+
+.how-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 48px;
+}
+
+.how-step {
+  position: relative;
+  min-height: 245px;
+  padding: 26px;
+  border: 1px solid rgba(120, 190, 150, 0.10);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.018);
+  box-sizing: border-box;
+}
+
+.how-step-number {
+  position: absolute;
+  top: 20px;
+  right: 22px;
+  color: rgba(127, 189, 137, 0.45);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.how-step-icon {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+  color: #7fbd89;
+}
+
+.how-step-icon svg {
+  width: 25px;
+  height: 25px;
+}
+
+.how-step h3 {
+  margin: 0 0 11px;
+  color: #dfe9e2;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.how-step p {
+  margin: 0;
+  color: #7f8c84;
+  font-size: 11px;
+  line-height: 1.75;
+  max-width: 270px;
+}
+
+@media (max-width: 900px) {
+  .how-steps {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .how-steps {
+    grid-template-columns: 1fr;
+  }
+
+  .how-step {
+    min-height: auto;
+  }
+}
+
+
+.about-supported {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 70px;
+}
+
+.disease-tags {
+  justify-content: flex-start;
+  max-width: 520px;
+}
+
+@media (max-width: 800px) {
+  .about-supported {
+    gap: 20px;
+  }
+}
+
+
+.contact-section {
+  background: #0b110d;
+}
+
+.contact-section h2 {
+  margin: 0;
+  color: #edf5ef;
+  font-size: 34px;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 46px;
+}
+
+.contact-card {
+  min-height: 190px;
+  padding: 26px;
+  border: 1px solid rgba(120, 190, 150, 0.10);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.018);
+  box-sizing: border-box;
+}
+
+.contact-label {
+  color: #7fbd89;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  margin-bottom: 16px;
+}
+
+.contact-card h3 {
+  margin: 0 0 11px;
+  color: #dfe9e2;
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.contact-card p {
+  margin: 0;
+  color: #7f8c84;
+  font-size: 11px;
+  line-height: 1.75;
+}
+
+.contact-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  margin-top: 52px;
+  color: #68756e;
+  font-size: 11px;
+}
+
+.contact-message svg {
+  width: 17px;
+  height: 17px;
+  color: #7fbd89;
+}
+
+@media (max-width: 800px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.about-section {
+  padding-bottom: 70px;
+}
+
+.how-section {
+  padding-top: 70px;
+}
+
+
+.footer {
+  width: 100%;
+  padding: 55px 7% 30px;
+  background: #0a100c;
+  border-top: 1px solid rgba(120, 190, 150, 0.08);
+  box-sizing: border-box;
+}
+
+.footer-contact {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.footer-contact-label {
+  color: #7fbd89;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.footer-contact h3 {
+  margin: 0 0 10px;
+  color: #e7f1ea;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer-contact > a {
+  color: #89988f;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.footer-contact > a:hover {
+  color: #a6c9ad;
+}
+
+.footer-links {
+  display: flex;
+  gap: 18px;
+  margin-top: 15px;
+}
+
+.footer-links a {
+  color: #7fbd89;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #a6c9ad;
+}
+
+.footer-message {
+  max-width: 1180px;
+  margin: 38px auto 0;
+  padding-top: 22px;
+  border-top: 1px solid rgba(120, 190, 150, 0.06);
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #69766e;
+  font-size: 10px;
+}
+
+.footer-message svg {
+  width: 16px;
+  height: 16px;
+  color: #668f6e;
+}
+
+.footer-copyright {
+  max-width: 1180px;
+  margin: 18px auto 0;
+  color: #505c55;
+  font-size: 9px;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 45px 6% 25px;
+  }
+
+  .footer-links {
+    gap: 14px;
+  }
+}
+
+
+.footer-message,
+.footer-copyright {
+  max-width: none;
+}
+
+.footer-message {
+  margin: 38px auto 0;
+  padding-top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 9px;
+  border-top: 1px solid rgba(120, 190, 150, 0.06);
+  color: #69766e;
+  font-size: 10px;
+}
+
+.footer-message svg {
+  flex-shrink: 0;
+}
+
+.footer-copyright {
+  margin: -16px auto 0;
+  color: #505c55;
+  font-size: 9px;
+}
+
+@media (max-width: 600px) {
+  .footer-message {
+    justify-content: flex-start;
+    margin-top: 25px;
+  }
+
+  .footer-copyright {
+    margin-top: 14px;
+  }
+}
+
+
+/* Final footer layout */
+.how-section {
+  padding-bottom: 45px;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 0;
+  min-height: auto;
+  padding: 42px 7% 24px;
+  background: #0a100c;
+  border-top: 1px solid rgba(120, 190, 150, 0.08);
+  display: block;
+  box-sizing: border-box;
+  color: #71827e;
+  font-size: 10px;
+}
+
+.footer-contact {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.footer-contact-label {
+  margin-bottom: 10px;
+}
+
+.footer-contact h3 {
+  margin: 0 0 8px;
+}
+
+.footer-contact > a {
+  display: inline-block;
+  margin-top: 0;
+}
+
+.footer-links {
+  margin-top: 14px;
+  display: flex;
+  gap: 18px;
+}
+
+.footer-message {
+  max-width: 1180px;
+  margin: 32px auto 0;
+  padding-top: 18px;
+  border-top: 1px solid rgba(120, 190, 150, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  color: #69766e;
+  font-size: 10px;
+}
+
+.footer-message svg {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  color: #668f6e;
+}
+
+.footer-copyright {
+  max-width: 1180px;
+  margin: -15px auto 0;
+  color: #505c55;
+  font-size: 9px;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 38px 6% 22px;
+  }
+
+  .footer-message {
+    justify-content: flex-start;
+    margin-top: 25px;
+  }
+
+  .footer-copyright {
+    margin-top: 14px;
+  }
+}
+
+
+.how-section {
+  padding-bottom: 30px;
+}
+
+.footer-copyright {
+  color: #3f4943;
+}
+
+
+.how-section {
+  padding-bottom: 25px;
+}
+
+.footer-copyright {
+  color: #3f4943;
+}
+
+
+.how-section {
+  padding-bottom: 27px;
+}
+
+.footer-copyright {
+  color: #3f4943;
+}
+
+
+/* Final footer adjustments */
+.how-section {
+  padding-bottom: 18px !important;
+}
+
+.footer {
+  margin-top: 0 !important;
+}
+
+.footer-copyright {
+  color: #303832 !important;
+  font-size: 9px;
+}
+
+
+.footer-copyright {
+  color: #718078 !important;
+  font-size: 9px;
+}
+
+
+.footer-copyright {
+  margin-top: -4px !important;
+}
+
+
+.how-section {
+  padding-bottom: 5px !important;
+}
+
+.footer {
+  padding-top: 30px !important;
+}
+
+
+.footer-copyright {
+  margin-top: 5px !important;
+}
+
+
+.footer-copyright {
+  margin-top: -10px !important;
+}
+
+
+.footer-copyright {
+  margin-top: -20px !important;
+}
+
+
+.footer-copyright {
+  margin-top: -18px !important;
+}
+
+
+.how-section {
+  padding-bottom: 5px !important;
+}
+
+.footer {
+  padding-top: 28px !important;
+}
+
+
+.how-section {
+  padding-bottom: 5px !important;
+}
+
+.footer {
+  padding-top: 15px !important;
+}
+
+
+.how-section {
+  padding-bottom: 5px !important;
+}
+
+.footer {
+  padding-top: 20px !important;
+}
+
+
+.how-section {
+  padding-bottom: 5px !important;
+}
+
+.footer {
+  padding-top: 30px !important;
+}
+
+
+.footer-copyright {
+  color: #718078 !important;
+  font-size: 10px;
+}
+
+
+.footer-copyright {
+  margin-top: -20px !important;
+}
