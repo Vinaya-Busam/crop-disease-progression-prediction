@@ -206,7 +206,7 @@ function App() {
         import.meta.env.VITE_API_URL || "";
 
       const response = await fetch(
-        `${API_URL}/api/predict-upload`,
+        `${API_URL}/predict-upload`,
         {
         method: "POST",
         body: formData
