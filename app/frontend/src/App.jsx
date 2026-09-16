@@ -202,7 +202,12 @@ function App() {
       const formData = new FormData();
       formData.append("file", image);
 
-      const response = await fetch("/api/predict-upload", {
+      const API_URL =
+        import.meta.env.VITE_API_URL || "";
+
+      const response = await fetch(
+        `${API_URL}/api/predict-upload`,
+        {
         method: "POST",
         body: formData
       });
