@@ -1,5 +1,6 @@
 
 from fastapi import FastAPI, HTTPException, UploadFile, File
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from inference import MLInferenceService
 from PIL import Image
@@ -9,6 +10,14 @@ app = FastAPI(
     title="Crop Disease Progression Prediction API",
     description="AI-based crop disease identification and progression forecasting API",
     version="1.0.0"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 ml_service = MLInferenceService()
